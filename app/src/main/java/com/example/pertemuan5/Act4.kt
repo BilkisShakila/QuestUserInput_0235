@@ -27,3 +27,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+
+@Composable
+fun FormDataDiri(modifier: Modifier){
+    //Variable-variable untuk mengingatkan nilai masukkan dari keyboard
+    var textName by remember { mutableStateOf(value = "") }
+    var textAlamat by remember { mutableStateOf(value = "") }
+    var textJK by remember { mutableStateOf(value = "") }
+    val gender:List<String> = listOf("Laki-laki","Perempuan")
