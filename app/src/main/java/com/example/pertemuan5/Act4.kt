@@ -78,3 +78,11 @@ fun FormDataDiri(modifier: Modifier){
                 textAlamat = it
             }
         )
+        HorizontalDivider(
+            modifier = Modifier.padding(
+                bottom = dimensionResource(id = R.dimen.paddingkun),
+                top = dimensionResource(id = R.dimen.paddingkun)
+            ),
+            thickness = dimensionResource(id = R.dimen.paddingobake),
+            color = Color.DarkGray
+        )
